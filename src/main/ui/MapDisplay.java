@@ -36,7 +36,7 @@ public class MapDisplay extends JDialog {
         String combination = place2 + "," + city2;
         String imageUrl = "https://maps.googleapis.com/maps/api/staticmap?center=" + combination + "&zoom=17&size=800x600&maptype=roadmap"
                 + "&key="
-                + "AIzaSyA0YlzbJvU3Sm14zHa8e5r-Wr6rH8G0ZMM";
+                + "placeHolder";
         readMap(imageUrl);
         ImageIcon imageIcon = new ImageIcon((new ImageIcon("image.jpg"))
                 .getImage().getScaledInstance(1000, 800,
